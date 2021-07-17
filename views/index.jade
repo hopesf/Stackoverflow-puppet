@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  .container
+    h2 Stackoverflow, The most popular words in 100 questions
+    table
+      tbody
+        tr
+          th(style="color:red;") Words
+          th(style="color:red;") Counts
+
+
+        each val in abc
+          tr
+            td= abc
+            td= val
+
